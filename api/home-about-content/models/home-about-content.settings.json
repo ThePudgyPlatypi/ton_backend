@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_about_contents",
+  "info": {
+    "name": "homeAboutContent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
