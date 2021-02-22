@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "random_song_headers",
+  "info": {
+    "name": "Random Song Header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    }
+  }
+}

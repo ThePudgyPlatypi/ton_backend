@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/random-song-headers",
+      "handler": "random-song-header.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/random-song-headers/count",
+      "handler": "random-song-header.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/random-song-headers/:id",
+      "handler": "random-song-header.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/random-song-headers",
+      "handler": "random-song-header.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/random-song-headers/:id",
+      "handler": "random-song-header.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/random-song-headers/:id",
+      "handler": "random-song-header.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
