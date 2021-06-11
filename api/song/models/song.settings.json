@@ -38,6 +38,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "release": {
+      "type": "date"
+    },
+    "about": {
+      "type": "richtext"
     }
   }
 }
